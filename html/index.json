@@ -1,0 +1,132 @@
+{
+  "is": "index",
+  "cStateVersion": "5.5.1",
+  "apiVersion": "2.0",
+  "title": "IT-Info-Portal-2.0",
+  "languageCodeHTML": "en",
+  "languageCode": "de",
+  "baseURL": "http://localhost", 
+  "description": "We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.",
+  "summaryStatus": "ok", 
+  "categories": [
+      {
+        "name": "Nissan",
+        "description": "Elektronische Verkaufs- und Informationssystem",
+        "hideTitle": false,
+        "closedByDefault": true
+      }
+    ,
+      {
+        "name": "Mobilize FS",
+        "hideTitle": false,
+        "closedByDefault": true
+      }
+    ,
+      {
+        "name": "Uncategorized",
+        "hideTitle": true,
+        "closedByDefault": true
+      }
+    
+  ],
+  "systems": [
+    
+      {
+        "name": "ELVIS",
+        "category": "Renault, Nissan", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "HAP",
+        "category": "Renault", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "SMIT",
+        "category": "Nissan", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "CarConf",
+        "description": "CarConf Nissan Login",
+        "category": "Nissan", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "CarConf",
+        "description": "CarConf Renault Login",
+        "category": "Renault", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Crédit Réseau",
+        "description": "The guts of the application.",
+        "category": "Uncategorized", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "Traffic / GWT",
+        "description": "This is the service responsible for serving images, audio, and video. It is reliant on our CDN.",
+        "category": "Uncategorized", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      },
+      {
+        "name": "SoFi",
+        "description": "Sonstige Finanzierungen",
+        "category": "Nissan", 
+        
+        "status": "ok",
+        
+        "unresolvedIssues": []
+        
+      }
+  ],
+  
+  "tabs": [
+      {
+        "name": "Kontakt", 
+        "link": "<no value>"
+      }
+    
+  ],
+  
+  "buildDate": "2023-03-29",
+  "buildTime": "15:58",
+  "buildTimezone": "UTC",
+  "colorBrand": "#F45000",
+  "colorOk": "#008000",
+  "colorDisrupted": "#cc4400",
+  "colorDown": "#e60000",
+  "colorNotice": "#05C3DD",
+  "alwaysKeepBrandColor": "true",
+  "logo": "http://localhost/logo.png",
+  "googleAnalytics": "UA-00000000-1"
+}
